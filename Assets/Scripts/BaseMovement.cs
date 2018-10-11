@@ -16,8 +16,11 @@ public class BaseMovement : MonoBehaviour
     [Range(0.1f, 10f)]
     public float maxSpeed;
 
-    public float moveVertical;
-    float moveHorizontal;
+    private float moveVertical;
+    private float moveHorizontal;
+
+    private bool rotateRight;
+    private bool rotateLeft;
 
     void Start()
     {
@@ -28,8 +31,24 @@ public class BaseMovement : MonoBehaviour
     void Update()
     {
         moveHorizontal = Input.GetAxis("Horizontal");
-
         moveVertical = Input.GetAxis("Vertical");
+
+        if (Input.GetKey(KeyCode.Period))
+        {
+            rotateRight = true;
+        }
+        else
+        {
+            rotateRight = false;
+        }
+        if (Input.GetKey(KeyCode.Comma))
+        {
+            rotateLeft = true;
+        }
+        else
+        {
+            rotateLeft = false;
+        }
     }
 
     void FixedUpdate()
@@ -65,6 +84,18 @@ public class BaseMovement : MonoBehaviour
             Vector2 velocity = rb2d.velocity;
             velocity.y = -maxSpeed;
             rb2d.velocity = velocity;
+        }
+
+        if (rotateRight && rotateLeft)
+        {
+        }
+        else if (rotateRight)
+        {
+            transform.Rotate(0, 0, -turnSpeed);
+        }
+        else if (rotateLeft)
+        {
+            transform.Rotate(0, 0, turnSpeed);
         }
     }
 }
