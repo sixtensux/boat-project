@@ -6,15 +6,15 @@ using UnityEngine;
 public class BaseMovement : MonoBehaviour
 {
 
-    Rigidbody2D rb2d;
+    protected Rigidbody2D rb2d;
 
     [Header("Speed")]
     [Range(0.1f, 20f)]
-    public float speed;
-    [Range(0.1f, 10f)]
-    public float turnSpeed;
+    public float acceleration;
     [Range(0.1f, 10f)]
     public float maxSpeed;
+    [Range(0.1f, 10f)]
+    public float turnSpeed;
 
     private float moveVertical;
     private float moveHorizontal;
@@ -22,10 +22,12 @@ public class BaseMovement : MonoBehaviour
     private bool rotateRight;
     private bool rotateLeft;
 
-    void Start()
+    void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
         rb2d.gravityScale = 0;
+        rb2d.drag = 2.5f;
+        rb2d.angularDrag = 2.5f;
     }
 
     void Update()
@@ -53,12 +55,8 @@ public class BaseMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 movement;
-        movement.x = moveHorizontal * speed;
-        movement.y = moveVertical * speed;
-        //rb2d.velocity = movement;
-        rb2d.AddForce(Vector2.right * speed * moveHorizontal);
-        rb2d.AddForce(Vector2.up * speed * moveVertical);
+        rb2d.AddForce(Vector2.right * acceleration * moveHorizontal);
+        rb2d.AddForce(Vector2.up * acceleration * moveVertical);
 
         if (rb2d.velocity.x > maxSpeed)
         {
