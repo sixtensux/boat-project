@@ -6,9 +6,15 @@ public class ShootingScript : MonoBehaviour {
 
     public Transform firepoint;
     public GameObject cannonballPrefab;
-	
+    public float delayTime = 2f;
+    private float counter = 0f;
+     float reloadTime;
+
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
+        counter += Time.deltaTime;
+
         if (Input.GetButton("Fire1"))
         {
             Shoot();
@@ -17,10 +23,11 @@ public class ShootingScript : MonoBehaviour {
 
     void Shoot()
     {
-        Instantiate(cannonballPrefab, firepoint.position, firepoint.rotation);
+        if (counter > delayTime)
+        {
+            Instantiate(cannonballPrefab, firepoint.position, firepoint.rotation);
+            counter = 0;
+        }
     }
-
-
-
 
 }
