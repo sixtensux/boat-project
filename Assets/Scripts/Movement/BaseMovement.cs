@@ -9,12 +9,16 @@ public class BaseMovement : MonoBehaviour
     protected Rigidbody2D rb2d;
 
     [Header("Speed")]
-    [Range(0.1f, 20f)]
-    public float acceleration;
-    [Range(0.1f, 10f)]
+    //[Range(0.1f, 20f)]
+    //public float acceleration;
+    [Range(0.1f, 15f)]
     public float maxSpeed;
     [Range(0.1f, 10f)]
     public float turnSpeed;
+    private Vector2 direction;
+
+    [Header("Player")]
+    public bool player1;
 
     private float moveVertical;
     private float moveHorizontal;
@@ -32,33 +36,71 @@ public class BaseMovement : MonoBehaviour
 
     void Update()
     {
-        moveHorizontal = Input.GetAxis("Horizontal");
-        moveVertical = Input.GetAxis("Vertical");
+        if (player1)
+        {
+            moveHorizontal = Input.GetAxis("P1LeftStickHorizontal");
+            moveVertical = Input.GetAxis("P1LeftStickVertical");
+        }
+        else if (!player1)
+        {
+            moveHorizontal = Input.GetAxis("P2LeftStickHorizontal");
+            moveVertical = Input.GetAxis("P2LeftStickVertical");
+        }
+        else
+        { }
 
-        if (Input.GetKey(KeyCode.Period))
+        if (player1)
         {
-            rotateRight = true;
+            if (Input.GetAxis("P1RightStickHorizontal") > 0)
+            {
+                rotateRight = true;
+            }
+            else
+            {
+                rotateRight = false;
+            }
+            if (Input.GetAxis("P1RightStickHorizontal") < 0)
+            {
+                rotateLeft = true;
+            }
+            else
+            {
+                rotateLeft = false;
+            }
+        }
+        else if (!player1)
+        {
+            if (Input.GetAxis("P2RightStickHorizontal") > 0)
+            {
+                rotateRight = true;
+            }
+            else
+            {
+                rotateRight = false;
+            }
+            if (Input.GetAxis("P2RightStickHorizontal") < 0)
+            {
+                rotateLeft = true;
+            }
+            else
+            {
+                rotateLeft = false;
+            }
+
         }
         else
         {
-            rotateRight = false;
-        }
-        if (Input.GetKey(KeyCode.Comma))
-        {
-            rotateLeft = true;
-        }
-        else
-        {
-            rotateLeft = false;
+            print("Indecisive Bitch");
         }
     }
 
     void FixedUpdate()
     {
-        rb2d.AddForce(Vector2.right * acceleration * moveHorizontal);
-        rb2d.AddForce(Vector2.up * acceleration * moveVertical);
+        direction = (Vector2.right * moveHorizontal + Vector2.up * moveVertical);
+        direction = direction.normalized;
+        rb2d.AddForce(direction * maxSpeed);
 
-        if (rb2d.velocity.x > maxSpeed)
+        /*if (rb2d.velocity.x > maxSpeed)
         {
             Vector2 velocity = rb2d.velocity;
             velocity.x = maxSpeed;
@@ -82,7 +124,7 @@ public class BaseMovement : MonoBehaviour
             Vector2 velocity = rb2d.velocity;
             velocity.y = -maxSpeed;
             rb2d.velocity = velocity;
-        }
+        }*/
 
         if (rotateRight && rotateLeft)
         {

@@ -113,6 +113,29 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &129946730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1508546833474102, guid: 14f5b8eddca9012408ed89991b69afe6,
+    type: 2}
+  m_PrefabInternal: {fileID: 378526213}
+--- !u!114 &129946733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129946730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec428226b739c7429166a015800effa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analLeaking: {fileID: 0}
+  newSprite:
+  - {fileID: 21300000, guid: 69dd7963618f6e641bee0b7cc3d93de1, type: 3}
+  - {fileID: 21300000, guid: fa0da319c4304fa42899170187436a78, type: 3}
+  - {fileID: 21300000, guid: 3c7552f8337360a419589c43296d0fed, type: 3}
+  - {fileID: 21300000, guid: 06d54a083c9b78c4dabda432d48eb119, type: 3}
+  - {fileID: 21300000, guid: a3d9c4416a9d64548837a6e9a26d8c0f, type: 3}
 --- !u!1 &225213880
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +257,20 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 0e98446b4e88ad94f86679c1c0400d8f, type: 2}
+    - target: {fileID: 114311856135029140, guid: 14f5b8eddca9012408ed89991b69afe6,
+        type: 2}
+      propertyPath: player1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114311856135029140, guid: 14f5b8eddca9012408ed89991b69afe6,
+        type: 2}
+      propertyPath: maxSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508546833474102, guid: 14f5b8eddca9012408ed89991b69afe6, type: 2}
+      propertyPath: m_Name
+      value: Diarrhoea
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f5b8eddca9012408ed89991b69afe6, type: 2}
   m_IsPrefabAsset: 0
@@ -266,9 +303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b978a0bb7c6728547a076656568e79b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 20
-  maxSpeed: 3
+  maxSpeed: 10
   turnSpeed: 3.63
+  player1: 0
 --- !u!50 &1649640574
 Rigidbody2D:
   serializedVersion: 4
