@@ -231,14 +231,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 55550409}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f726ec750bea4544ea895d5d661284a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 0
-  turnSpeed: 0
-  player1: 0
+  maxSpeed: 15
+  turnSpeed: 10
+  player1: 1
 --- !u!50 &55550414
 Rigidbody2D:
   serializedVersion: 4
@@ -7791,8 +7791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f726ec750bea4544ea895d5d661284a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 0
-  turnSpeed: 0
+  maxSpeed: 15
+  turnSpeed: 10
   player1: 0
 --- !u!1 &1640939094
 GameObject:
