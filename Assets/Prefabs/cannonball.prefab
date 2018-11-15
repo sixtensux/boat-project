@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212651015053477884}
   - component: {fileID: 50755167019044028}
   - component: {fileID: 58893425138593054}
-  - component: {fileID: 114414159414892622}
+  - component: {fileID: 114048468131806486}
   m_Layer: 0
   m_Name: cannonball
   m_TagString: Untagged
@@ -78,7 +78,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.039062496
---- !u!114 &114414159414892622
+--- !u!114 &114048468131806486
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,13 +86,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1968290514123110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e5a3dfde714ff445bd8e8c20f8773b6, type: 3}
+  m_Script: {fileID: 11500000, guid: b49fb2529a278524fb9661aa412f7846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  rb: {fileID: 50755167019044028}
-  damage: 40
-  impactEffect: {fileID: 0}
+  rb: {fileID: 0}
+  damage: 1
+  impactEffect: {fileID: 1689744617938478, guid: 4294066539ff2174c967bcde8bad2357,
+    type: 2}
+  deSpawnTime: 5
+  time: 0
 --- !u!212 &212651015053477884
 SpriteRenderer:
   m_ObjectHideFlags: 1

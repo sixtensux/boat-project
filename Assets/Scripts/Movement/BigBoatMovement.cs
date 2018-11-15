@@ -6,7 +6,7 @@ public class BigBoatMovement : BaseMovement
 {
     void Start()
     {
-        rb2d.drag = 4.5f;
-        rb2d.angularDrag = 4.5f;
+        rb2d.drag = 0.1f;
+        rb2d.angularDrag = 0.1f;
     }
 }

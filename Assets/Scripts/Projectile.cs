@@ -26,8 +26,12 @@ public class Projectile : MonoBehaviour {
         }
     }
 
+
+
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
+		Instantiate(impactEffect, transform.position, Quaternion.identity);
+
         Health health = hitInfo.GetComponent<Health>();
         if (health != null)
         {
