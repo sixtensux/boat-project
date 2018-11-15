@@ -15,11 +15,6 @@ public class Menu : MonoBehaviour
 
     // public bool isBig;
 
-    private void Start()
-    {
-        bigblue = GameObject.Find("Bigblue");
-        smallblue = GameObject.Find("Smallblue");
-    }
     //private void OnMouseOver()
     public void Boatswitchblue(bool isBig)
     {
