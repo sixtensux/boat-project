@@ -19,16 +19,6 @@ public class Shipmanager : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
-
     public void Bigblue()
     {
         isBigBlue = true;
@@ -36,7 +26,7 @@ public class Shipmanager : MonoBehaviour
 
     public void Bigred()
     {
-        isBigRed = false;
+        isBigRed = true;
     }
 
     public void Smallblue()

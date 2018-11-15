@@ -12,10 +12,14 @@ public class Menu : MonoBehaviour
     public GameObject bigred;
     public GameObject smallred;
 
+    public void Start()
+    {
+        smallblue.SetActive(false);
+        bigblue.SetActive(true);
+        smallred.SetActive(false);
+        bigred.SetActive(true);
+    }
 
-    // public bool isBig;
-
-    //private void OnMouseOver()
     public void Boatswitchblue(bool isBig)
     {
         if (isBig == true)
@@ -48,6 +52,7 @@ public class Menu : MonoBehaviour
     public void Loadlevel()
     {
         SceneManager.LoadScene("Level_1");
+        print("Clicked");
     }
 
 }
