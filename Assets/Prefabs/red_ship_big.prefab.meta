@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3c3fcf5bd4fec6843ad63a50872a3d26
+=======
+guid: 7b0d14194b3434b4a991d85e4e9b580e
+>>>>>>> origin/Lucas
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 100100000

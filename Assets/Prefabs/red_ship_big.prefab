@@ -9,49 +9,82 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
+<<<<<<< HEAD
   m_RootGameObject: {fileID: 1223740401193042}
   m_IsPrefabAsset: 1
 --- !u!1 &1177363696052194
+=======
+  m_RootGameObject: {fileID: 1259043504369498}
+  m_IsPrefabAsset: 1
+--- !u!1 &1071939316783816
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4517513973835592}
   - component: {fileID: 212654556161487088}
   m_Layer: 0
   m_Name: hullLarge_dmg0
+=======
+  - component: {fileID: 4131973753417080}
+  - component: {fileID: 212421425939668976}
+  m_Layer: 0
+  m_Name: nest
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1223740401193042
+=======
+--- !u!1 &1142961965122176
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4347026285138732}
   - component: {fileID: 114627902265944556}
   m_Layer: 0
   m_Name: red_ship_big
+=======
+  - component: {fileID: 4585408867924026}
+  - component: {fileID: 212140784566480196}
+  m_Layer: 0
+  m_Name: cannon_1
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1360456727417854
+=======
+--- !u!1 &1160006129396092
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4329913756511154}
   - component: {fileID: 212588042702062802}
+=======
+  - component: {fileID: 4495232537879472}
+  - component: {fileID: 212154270410126378}
+>>>>>>> origin/Lucas
   m_Layer: 0
   m_Name: cannon
   m_TagString: Untagged
@@ -59,106 +92,176 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1362197766371766
+=======
+--- !u!1 &1172923732885136
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4894969389836264}
   - component: {fileID: 212864979768089816}
   m_Layer: 0
   m_Name: red_sailSmall
+=======
+  - component: {fileID: 4394488238013226}
+  - component: {fileID: 212735162732926502}
+  m_Layer: 0
+  m_Name: red_flag
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1575145730217850
+=======
+--- !u!1 &1259043504369498
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4108730291065702}
   - component: {fileID: 212875810591058332}
   m_Layer: 0
   m_Name: cannon_1
+=======
+  - component: {fileID: 4419507689236552}
+  - component: {fileID: 114482806296647240}
+  m_Layer: 0
+  m_Name: red_ship_big
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1693117938259744
+=======
+--- !u!1 &1276433972681510
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4445430935687070}
   - component: {fileID: 212293529634348656}
   m_Layer: 0
   m_Name: nest
+=======
+  - component: {fileID: 4292403558563944}
+  - component: {fileID: 212745831715273210}
+  m_Layer: 0
+  m_Name: red_sailSmall
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1734507807811316
+=======
+--- !u!1 &1602557822908700
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4517441927792112}
   - component: {fileID: 212340679602659390}
   m_Layer: 0
   m_Name: red_sailLarge_dmg0
+=======
+  - component: {fileID: 4260194437386872}
+  - component: {fileID: 212508545140805116}
+  m_Layer: 0
+  m_Name: hullLarge_dmg0
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1868134337292370
+=======
+--- !u!1 &1822084673676610
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4354784854290950}
   m_Layer: 0
   m_Name: firepoint
+=======
+  - component: {fileID: 4229581279081406}
+  - component: {fileID: 212209447903346788}
+  m_Layer: 0
+  m_Name: red_sailLarge_dmg0
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1897413127866090
+=======
+--- !u!1 &1857395740745082
+>>>>>>> origin/Lucas
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4390886158799060}
   - component: {fileID: 212883975358580808}
   m_Layer: 0
   m_Name: red_flag
+=======
+  - component: {fileID: 4540526676058688}
+  m_Layer: 0
+  m_Name: firepoint
+>>>>>>> origin/Lucas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &4108730291065702
+=======
+--- !u!4 &4131973753417080
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1575145730217850}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.04, y: -0.323, z: 0}
@@ -168,10 +271,22 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!4 &4329913756511154
+=======
+  m_GameObject: {fileID: 1071939316783816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.308, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4229581279081406
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1360456727417854}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.038, y: -0.323, z: 0}
@@ -181,10 +296,22 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!4 &4347026285138732
+=======
+  m_GameObject: {fileID: 1822084673676610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.052, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4260194437386872
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1223740401193042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.08, y: -0.01, z: 0}
@@ -202,10 +329,22 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4354784854290950
+=======
+  m_GameObject: {fileID: 1602557822908700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4292403558563944
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1868134337292370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
@@ -215,23 +354,46 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4390886158799060
+=======
+  m_GameObject: {fileID: 1276433972681510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.273, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4394488238013226
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1897413127866090}
+=======
+  m_GameObject: {fileID: 1172923732885136}
+>>>>>>> origin/Lucas
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.415, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 4347026285138732}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4445430935687070
+=======
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4419507689236552
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1693117938259744}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.308, z: 0}
@@ -241,10 +403,30 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4517441927792112
+=======
+  m_GameObject: {fileID: 1259043504369498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.08, y: -0.01, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children:
+  - {fileID: 4540526676058688}
+  - {fileID: 4131973753417080}
+  - {fileID: 4260194437386872}
+  - {fileID: 4495232537879472}
+  - {fileID: 4585408867924026}
+  - {fileID: 4229581279081406}
+  - {fileID: 4292403558563944}
+  - {fileID: 4394488238013226}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4495232537879472
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1734507807811316}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.052, z: 0}
@@ -254,10 +436,22 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4517513973835592
+=======
+  m_GameObject: {fileID: 1160006129396092}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.038, y: -0.323, z: 0}
+  m_LocalScale: {x: 0.7175735, y: 0.7175735, z: 0.7175735}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!4 &4540526676058688
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1177363696052194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -267,10 +461,22 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4894969389836264
+=======
+  m_GameObject: {fileID: 1857395740745082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4585408867924026
+>>>>>>> origin/Lucas
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1362197766371766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.273, z: 0}
@@ -280,25 +486,51 @@ Transform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114627902265944556
+=======
+  m_GameObject: {fileID: 1142961965122176}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.04, y: -0.323, z: 0}
+  m_LocalScale: {x: 0.7175753, y: 0.7175753, z: 0.71757495}
+  m_Children: []
+  m_Father: {fileID: 4419507689236552}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &114482806296647240
+>>>>>>> origin/Lucas
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1223740401193042}
+=======
+  m_GameObject: {fileID: 1259043504369498}
+>>>>>>> origin/Lucas
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 320afaf05c711a849b36cdf5aca79b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   firepoint: {fileID: 4354784854290950}
   cannonballPrefab: {fileID: 1968290514123110, guid: 17bde15ae5839684c945ad49ddcd4dfc,
     type: 2}
 --- !u!212 &212293529634348656
+=======
+  firepoint: {fileID: 4540526676058688}
+  cannonballPrefab: {fileID: 1968290514123110, guid: 17bde15ae5839684c945ad49ddcd4dfc,
+    type: 2}
+--- !u!212 &212140784566480196
+>>>>>>> origin/Lucas
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1693117938259744}
+=======
+  m_GameObject: {fileID: 1142961965122176}
+>>>>>>> origin/Lucas
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -327,116 +559,41 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: ca64d84dfc708da4184385f5248b1a2f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.18}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!212 &212340679602659390
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1734507807811316}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 11
-  m_Sprite: {fileID: 21300000, guid: 1b070e61f371bd445a8e0c4c56b26258, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.66, y: 0.46}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!212 &212588042702062802
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1360456727417854}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+=======
   m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: 2ab5ae61fd11a154a9095bb69f21db1c, type: 3}
+>>>>>>> origin/Lucas
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
+  m_Size: {x: 0.2, y: 0.18}
+=======
   m_Size: {x: 0.29, y: 0.16}
+>>>>>>> origin/Lucas
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!212 &212654556161487088
+<<<<<<< HEAD
+--- !u!212 &212340679602659390
+=======
+--- !u!212 &212154270410126378
+>>>>>>> origin/Lucas
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1177363696052194}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1734507807811316}
+=======
+  m_GameObject: {fileID: 1160006129396092}
+>>>>>>> origin/Lucas
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -465,24 +622,165 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+  m_SortingOrder: 11
+<<<<<<< HEAD
+  m_Sprite: {fileID: 21300000, guid: 1b070e61f371bd445a8e0c4c56b26258, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 2ab5ae61fd11a154a9095bb69f21db1c, type: 3}
+>>>>>>> origin/Lucas
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+<<<<<<< HEAD
+  m_Size: {x: 0.66, y: 0.46}
+=======
+  m_Size: {x: 0.29, y: 0.16}
+>>>>>>> origin/Lucas
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+<<<<<<< HEAD
+--- !u!212 &212588042702062802
+=======
+--- !u!212 &212209447903346788
+>>>>>>> origin/Lucas
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1360456727417854}
+=======
+  m_GameObject: {fileID: 1822084673676610}
+>>>>>>> origin/Lucas
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 11
+<<<<<<< HEAD
+  m_Sprite: {fileID: 21300000, guid: 2ab5ae61fd11a154a9095bb69f21db1c, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 1b070e61f371bd445a8e0c4c56b26258, type: 3}
+>>>>>>> origin/Lucas
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+<<<<<<< HEAD
+  m_Size: {x: 0.29, y: 0.16}
+=======
+  m_Size: {x: 0.66, y: 0.46}
+>>>>>>> origin/Lucas
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+<<<<<<< HEAD
+--- !u!212 &212654556161487088
+=======
+--- !u!212 &212421425939668976
+>>>>>>> origin/Lucas
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1177363696052194}
+=======
+  m_GameObject: {fileID: 1071939316783816}
+>>>>>>> origin/Lucas
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 726e6e3cd7cd4ef49a693ff8a63fd048, type: 3}
+=======
+  m_SortingOrder: 12
+  m_Sprite: {fileID: 21300000, guid: ca64d84dfc708da4184385f5248b1a2f, type: 3}
+>>>>>>> origin/Lucas
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 0.5, y: 1.08}
+=======
+  m_Size: {x: 0.2, y: 0.18}
+>>>>>>> origin/Lucas
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!212 &212864979768089816
+=======
+--- !u!212 &212508545140805116
+>>>>>>> origin/Lucas
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1362197766371766}
+=======
+  m_GameObject: {fileID: 1602557822908700}
+>>>>>>> origin/Lucas
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -511,24 +809,41 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: f2732b447c323d14a98fae3ee2257b89, type: 3}
+=======
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 726e6e3cd7cd4ef49a693ff8a63fd048, type: 3}
+>>>>>>> origin/Lucas
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 0.42, y: 0.08}
+=======
+  m_Size: {x: 0.5, y: 1.08}
+>>>>>>> origin/Lucas
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!212 &212875810591058332
+=======
+--- !u!212 &212735162732926502
+>>>>>>> origin/Lucas
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1575145730217850}
+=======
+  m_GameObject: {fileID: 1172923732885136}
+>>>>>>> origin/Lucas
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -557,24 +872,41 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: 2ab5ae61fd11a154a9095bb69f21db1c, type: 3}
+=======
+  m_SortingOrder: 13
+  m_Sprite: {fileID: 21300000, guid: 85bd69e65b666de408673f82776e70e1, type: 3}
+>>>>>>> origin/Lucas
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 0.29, y: 0.16}
+=======
+  m_Size: {x: 0.06, y: 0.22}
+>>>>>>> origin/Lucas
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!212 &212883975358580808
+=======
+--- !u!212 &212745831715273210
+>>>>>>> origin/Lucas
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1897413127866090}
+=======
+  m_GameObject: {fileID: 1276433972681510}
+>>>>>>> origin/Lucas
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -603,13 +935,22 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: 85bd69e65b666de408673f82776e70e1, type: 3}
+=======
+  m_SortingOrder: 12
+  m_Sprite: {fileID: 21300000, guid: f2732b447c323d14a98fae3ee2257b89, type: 3}
+>>>>>>> origin/Lucas
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 0.06, y: 0.22}
+=======
+  m_Size: {x: 0.42, y: 0.08}
+>>>>>>> origin/Lucas
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
