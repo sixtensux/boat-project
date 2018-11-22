@@ -20,9 +20,10 @@ public class ShootingScript : MonoBehaviour
 	{
 		counter += Time.deltaTime;
 
-		if (Input.GetButton(fireButton))
+		if (Input.GetAxisRaw(fireButton) == 1)
 		{
 			Shoot();
+            print("Shoot");
 		}
 	}
 

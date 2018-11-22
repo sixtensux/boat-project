@@ -38,7 +38,7 @@ public class BaseMovement : MonoBehaviour
 	{
 		if (player1)
 		{
-			if (Input.GetAxis("P1LeftStickHorizontal") > 0 || Input.GetAxis("P1LeftStickVertical") > 0)
+			if (Input.GetAxis("P1LeftStickHorizontal") != 0 || Input.GetAxis("P1LeftStickVertical") != 0)
 			{
 				moveHorizontal = Input.GetAxis("P1LeftStickHorizontal");
 				moveVertical = Input.GetAxis("P1LeftStickVertical");
@@ -52,7 +52,7 @@ public class BaseMovement : MonoBehaviour
 		}
 		else if (!player1)
 		{
-			if (Input.GetAxis("P2LeftStickHorizontal") > 0 || Input.GetAxis("P2LeftStickVertical") > 0)
+			if (Input.GetAxis("P2LeftStickHorizontal") != 0 || Input.GetAxis("P2LeftStickVertical") != 0)
 			{
 				moveHorizontal = Input.GetAxis("P2LeftStickHorizontal");
 				moveVertical = Input.GetAxis("P2LeftStickVertical");
@@ -66,7 +66,7 @@ public class BaseMovement : MonoBehaviour
 
 		if (player1)
 		{
-			if (Input.GetAxis("P1RightStickHorizontal") > 0 || Input.GetKey(KeyCode.PageDown))
+			if (Input.GetAxis("P1RightStickHorizontal") >= 0 || Input.GetKey(KeyCode.PageDown))
 			{
 				rotateRight = true;
 			}
@@ -74,7 +74,7 @@ public class BaseMovement : MonoBehaviour
 			{
 				rotateRight = false;
 			}
-			if (Input.GetAxis("P1RightStickHorizontal") < 0 || Input.GetKey(KeyCode.PageUp))
+			if (Input.GetAxis("P1RightStickHorizontal") <= 0 || Input.GetKey(KeyCode.PageUp))
 			{
 				rotateLeft = true;
 			}
@@ -85,7 +85,7 @@ public class BaseMovement : MonoBehaviour
 		}
 		else if (!player1)
 		{
-			if (Input.GetAxis("P2RightStickHorizontal") > 0 || Input.GetKey(KeyCode.E))
+			if (Input.GetAxis("P2RightStickHorizontal") >= 0 || Input.GetKey(KeyCode.E))
 			{
 				rotateRight = true;
 			}
@@ -93,7 +93,7 @@ public class BaseMovement : MonoBehaviour
 			{
 				rotateRight = false;
 			}
-			if (Input.GetAxis("P2RightStickHorizontal") < 0 || Input.GetKey(KeyCode.Q))
+			if (Input.GetAxis("P2RightStickHorizontal") <= 0 || Input.GetKey(KeyCode.Q))
 			{
 				rotateLeft = true;
 			}
@@ -111,7 +111,6 @@ public class BaseMovement : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		print(moveHorizontal);
 		direction = (Vector2.right * moveHorizontal + Vector2.up * moveVertical);
 		direction = direction.normalized;
 		rb2d.AddForce(direction * maxSpeed);
