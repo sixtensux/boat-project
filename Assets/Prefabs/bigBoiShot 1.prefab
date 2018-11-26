@@ -92,6 +92,7 @@ MonoBehaviour:
   speed: 30
   rb: {fileID: 0}
   damage: 1
+  inAccuracy: 5
   impactEffect: {fileID: 1150185143071592, guid: b8807308a6270dd4c99d7f99db271bdb,
     type: 2}
   deSpawnTime: 5

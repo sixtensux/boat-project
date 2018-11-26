@@ -89,12 +89,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b49fb2529a278524fb9661aa412f7846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
   rb: {fileID: 0}
   damage: 1
+  inAccuracy: 2
   impactEffect: {fileID: 1150185143071592, guid: b8807308a6270dd4c99d7f99db271bdb,
     type: 2}
-  deSpawnTime: 5
+  deSpawnTime: 0.5
   time: 0
 --- !u!212 &212322477923628694
 SpriteRenderer:

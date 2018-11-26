@@ -163,6 +163,8 @@ MonoBehaviour:
   cannonballPrefab: {fileID: 1034019850690430, guid: 51398286db5a37f42af1ab8041c13a9e,
     type: 2}
   shootClip: {fileID: 0}
+  numberOfBullets: 1
+  knockback: 100
   reloadTime: 1
   fireButton: P1Fire
 --- !u!114 &55550412
@@ -4930,6 +4932,8 @@ MonoBehaviour:
   cannonballPrefab: {fileID: 1725215305075784, guid: 568c7bc6fc7cf154393164a4ce3c01e4,
     type: 2}
   shootClip: {fileID: 0}
+  numberOfBullets: 3
+  knockback: 200
   reloadTime: 0.5
   fireButton: P1Fire
 --- !u!58 &395792697
@@ -5157,6 +5161,8 @@ MonoBehaviour:
   cannonballPrefab: {fileID: 1324371102054340, guid: bb864c3dad9877647b38b37fedcc1c07,
     type: 2}
   shootClip: {fileID: 0}
+  numberOfBullets: 3
+  knockback: 200
   reloadTime: 0.5
   fireButton: P2Fire
 --- !u!58 &553672950
@@ -9729,6 +9735,8 @@ MonoBehaviour:
   cannonballPrefab: {fileID: 1723023811906500, guid: f410046e10356494e8dff33e3b231bec,
     type: 2}
   shootClip: {fileID: 0}
+  numberOfBullets: 1
+  knockback: 100
   reloadTime: 1
   fireButton: P2Fire
 --- !u!4 &1513266109

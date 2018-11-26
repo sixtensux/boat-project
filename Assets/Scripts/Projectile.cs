@@ -2,20 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour {
+public class Projectile : MonoBehaviour
+{
 
     public float speed = 20f;
     public Rigidbody2D rb;
     public int damage = 1;
+    public float inAccuracy = 0;
     public GameObject impactEffect;
     public float deSpawnTime = 5f;
     public float time;
 
-	void Start ()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = transform.up * speed;	
-	}
+
+        if (inAccuracy > 0)
+        {
+            transform.Rotate(0, 0, Random.Range(-inAccuracy, inAccuracy));
+        }
+        rb.velocity = transform.up * speed;
+    }
 
     private void Update()
     {
@@ -28,9 +35,9 @@ public class Projectile : MonoBehaviour {
 
 
 
-    void OnTriggerEnter2D (Collider2D hitInfo)
+    void OnTriggerEnter2D(Collider2D hitInfo)
     {
-		Instantiate(impactEffect, transform.position, Quaternion.identity);
+        Instantiate(impactEffect, transform.position, Quaternion.identity);
 
         Health health = hitInfo.GetComponent<Health>();
         if (health != null)
@@ -38,6 +45,6 @@ public class Projectile : MonoBehaviour {
             health.TakeDamage(damage);
         }
         Debug.Log(hitInfo.name);
-        Destroy(gameObject);	
-	}
+        Destroy(gameObject);
+    }
 }
