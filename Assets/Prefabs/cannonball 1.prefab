@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50100382226954526}
   - component: {fileID: 114950505833286172}
   - component: {fileID: 70467006010167144}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: cannonball 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,10 +92,10 @@ MonoBehaviour:
   speed: 15
   rb: {fileID: 0}
   damage: 1
-  inAccuracy: 2
+  inAccuracy: 7.5
   impactEffect: {fileID: 1150185143071592, guid: b8807308a6270dd4c99d7f99db271bdb,
     type: 2}
-  deSpawnTime: 0.5
+  deSpawnTime: 1
   time: 0
 --- !u!212 &212322477923628694
 SpriteRenderer:

@@ -10,19 +10,28 @@ public class ShootingScript : MonoBehaviour
     public AudioClip shootClip;
 
     public int numberOfBullets = 1;
-    public int knockback = 100;
+    public int recoil = 100;
     [Range(0.1f, 3f)]
     public float reloadTime = 2;
     private float counter = 0f;
 
     public string fireButton;
+    private string fireKey;
+
+    private void Awake()
+    {
+        if (fireButton == "P1Fire")
+            fireKey = "Fire1";
+        else
+            fireKey = "Fire2";
+    }
 
     // Update is called once per frame
     void Update()
     {
         counter += Time.deltaTime;
 
-        if (Input.GetAxisRaw(fireButton) == 1)
+        if (Input.GetAxisRaw(fireButton) == 1 || Input.GetButtonDown(fireKey))
         {
             Shoot();
         }
@@ -37,7 +46,7 @@ public class ShootingScript : MonoBehaviour
                 gameObject.AddComponent<AudioSource>().Play(0);
             }
 
-            GetComponent<Rigidbody2D>().AddForce(-transform.up * knockback);
+            GetComponent<Rigidbody2D>().AddForce(-transform.up * recoil);
             counter = 0;
             SpawnBullet(numberOfBullets);
         }
