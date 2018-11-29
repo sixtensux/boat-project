@@ -66,7 +66,7 @@ public class BaseMovement : MonoBehaviour
 
 		if (player1)
 		{
-			if (Input.GetAxis("P1RightStickHorizontal") >= 0 || Input.GetKey(KeyCode.PageDown))
+			if (Input.GetAxis("P1RightStickHorizontal") > 0 || Input.GetKey(KeyCode.PageDown))
 			{
 				rotateRight = true;
 			}
@@ -74,7 +74,7 @@ public class BaseMovement : MonoBehaviour
 			{
 				rotateRight = false;
 			}
-			if (Input.GetAxis("P1RightStickHorizontal") <= 0 || Input.GetKey(KeyCode.PageUp))
+			if (Input.GetAxis("P1RightStickHorizontal") < 0 || Input.GetKey(KeyCode.PageUp))
 			{
 				rotateLeft = true;
 			}
@@ -85,7 +85,7 @@ public class BaseMovement : MonoBehaviour
 		}
 		else if (!player1)
 		{
-			if (Input.GetAxis("P2RightStickHorizontal") >= 0 || Input.GetKey(KeyCode.E))
+			if (Input.GetAxis("P2RightStickHorizontal") > 0 || Input.GetKey(KeyCode.E))
 			{
 				rotateRight = true;
 			}
@@ -93,7 +93,7 @@ public class BaseMovement : MonoBehaviour
 			{
 				rotateRight = false;
 			}
-			if (Input.GetAxis("P2RightStickHorizontal") <= 0 || Input.GetKey(KeyCode.Q))
+			if (Input.GetAxis("P2RightStickHorizontal") < 0 || Input.GetKey(KeyCode.Q))
 			{
 				rotateLeft = true;
 			}

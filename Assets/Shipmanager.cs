@@ -9,6 +9,11 @@ public class Shipmanager : MonoBehaviour
 
     private static bool created = false;
 
+    public SpriteRenderer bigRedRend;
+    public SpriteRenderer smallRedRend;
+    public SpriteRenderer bigBlueRend;
+    public SpriteRenderer smallBlueRend;
+
     void Awake()
     {
         if (!created)
@@ -17,6 +22,8 @@ public class Shipmanager : MonoBehaviour
             created = true;
             Debug.Log("Awake: " + this.gameObject);
         }
+
+        ApplyTint();
     }
 
     public void Bigblue()
@@ -39,4 +46,28 @@ public class Shipmanager : MonoBehaviour
         isBigRed = false;
     }
 
+    public void ApplyTint()
+    {
+        if (isBigRed)
+        {
+            smallRedRend.color = Color.white;
+            bigRedRend.color = Color.green;
+        }
+        else if (!isBigRed)
+        {
+            bigRedRend.color = Color.white;
+            smallRedRend.color = Color.green;
+        }
+
+        if (isBigBlue)
+        {
+            smallBlueRend.color = Color.white;
+            bigBlueRend.color = Color.green;
+        }
+        else if (!isBigBlue)
+        {
+            bigBlueRend.color = Color.white;
+            smallBlueRend.color = Color.green;
+        }
+    }
 }

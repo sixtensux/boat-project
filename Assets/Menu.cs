@@ -12,25 +12,27 @@ public class Menu : MonoBehaviour
     public GameObject bigred;
     public GameObject smallred;
 
+    private Vector3 smallScale;
+    private Vector3 bigScale;
+    private Vector3 scale = new Vector3(0.5f, 0.5f, 0.5f);
+
     public void Start()
     {
-        smallblue.SetActive(false);
-        bigblue.SetActive(true);
-        smallred.SetActive(false);
-        bigred.SetActive(true);
+        smallScale = smallred.transform.localScale;
+        bigScale = bigred.transform.localScale;
     }
 
     public void Boatswitchblue(bool isBig)
     {
         if (isBig == true)
         {
-            smallblue.SetActive(false);
-            bigblue.SetActive(true);
+            SetSelected(bigblue, true, true);
+            SetSelected(smallblue, false, false);
         }
         else
         {
-            bigblue.SetActive(false);
-            smallblue.SetActive(true);
+            SetSelected(bigblue, true, false);
+            SetSelected(smallblue, false, true);
         }
 
     }
@@ -39,20 +41,32 @@ public class Menu : MonoBehaviour
     {
         if (isBig == true)
         {
-            smallred.SetActive(false);
-            bigred.SetActive(true);
+            SetSelected(bigred, true, true);
+            SetSelected(smallred, false, false);
         }
         else
         {
-            bigred.SetActive(false);
-            smallred.SetActive(true);
+            SetSelected(bigred, true, false);
+            SetSelected(smallred, false, true);
         }
-
     }
+
     public void Loadlevel()
     {
         SceneManager.LoadScene("Level_1");
         print("Clicked");
     }
 
+    private void SetSelected(GameObject ship, bool big, bool bigger)
+    {
+        if (bigger && big && ship.transform.localScale.x < bigScale.x + scale.x)
+            ship.transform.localScale += scale;
+        else if (big)
+            ship.transform.localScale = bigScale;
+
+        if (bigger && !big && ship.transform.localScale.x < smallScale.x + scale.x)
+            ship.transform.localScale += scale;
+        else if (!big)
+            ship.transform.localScale = smallScale;
+    }
 }

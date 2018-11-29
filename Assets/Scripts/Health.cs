@@ -50,7 +50,7 @@ public class Health : MonoBehaviour
 
         percentHp = health / maxHealth;
 
-        int spriteIndex = (int)(spriteStates.Length * percentHp);
+        int spriteIndex = (int)(spriteStates.Length * percentHp - 0.1f);
 
         spriteRenderer.sprite = spriteStates[spriteIndex];
 

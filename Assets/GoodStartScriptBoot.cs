@@ -16,10 +16,7 @@ public class GoodStartScriptBoot : MonoBehaviour
 
     void Start()
     {
-        bigRed = GameObject.Find("Shipmanager").GetComponent<Shipmanager>().isBigRed;
-        bigBlue = GameObject.Find("Shipmanager").GetComponent<Shipmanager>().isBigBlue;
-
-        if (bigRed == true)
+        if (GameObject.Find("Shipmanager").GetComponent<Shipmanager>().isBigRed == true)
         {
             Bigred.SetActive(true);
         }
@@ -28,7 +25,7 @@ public class GoodStartScriptBoot : MonoBehaviour
             SmallRed.SetActive(true);
         }
 
-        if (bigBlue == true)
+        if (GameObject.Find("Shipmanager").GetComponent<Shipmanager>().isBigBlue == true)
         {
             Bigblue.SetActive(true);
         }
